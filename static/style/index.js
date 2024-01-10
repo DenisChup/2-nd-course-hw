@@ -30,3 +30,24 @@ alert(num);
 
 let age = prompt('Сколько вам лет?');
 alert(age);
+
+const user = {
+	name: 'Шурик',
+	age: 18,
+	isAdmin:true,
+    ['city of residence']: 'Москва',   
+};
+
+user.age = 20;
+
+delete user["city of residence"]
+
+console.log(user)
+
+let info = prompt("Какую информацию хотите узнать о пользователе?")
+
+alert(user[info])
+
+let name = prompt("Как вас зовут?")
+
+alert(`Привет, ${name}!`)
