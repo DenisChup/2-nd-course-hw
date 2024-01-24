@@ -3,15 +3,17 @@
     padding-left: 16px;
     padding-right: 16px;
   }
+
   .header {
     background: url(../img/mobileFon.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 375px;
     height: 735px;
-    flex-shrink: 0;
-    
+  }
+
+  .top {
+    align-items: center;
   }
 
   .top__heading {
@@ -36,14 +38,7 @@
     width: 343px;
   }
 
-  .btn {
-  }
-
   .game {
-    width: 375px;
-    height: 1221px;
-    flex-shrink: 0;
-    background: #000915;
     display: flex;
     flex-wrap: wrap;
   }
@@ -53,5 +48,13 @@
     height: 300px;
     flex-shrink: 0;
     border-radius: 16px;
+  }
+}
+
+@media (max-width: 720px) {
+  .header {
+    background: url(../img/mobileFon.jpg);
+    background-position: center;
+    background-size: cover;
   }
 }
