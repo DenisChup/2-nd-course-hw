@@ -64,8 +64,8 @@ a {
 }
 
 .btn:active {
-    background: #eb453fa4;
-  }
+  background: rgba(235, 69, 63, 0.6431372549);
+}
 
 .main {
   background: #000915;
@@ -93,8 +93,8 @@ a {
 }
 
 .game__box:hover {
-    border: 3px solid #44D2FF;
-    box-shadow: 0px 8px 19px rgb(57, 215, 255);
+  border: 3px solid #44D2FF;
+  box-shadow: 0px 8px 19px rgb(57, 215, 255);
 }
 
 .game__box-1 {
@@ -108,3 +108,57 @@ a {
 .game__box-3 {
   background: url(../img/game3.png);
 }
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    background: url(../img/mobileFon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 735px;
+  }
+  .top {
+    align-items: center;
+  }
+  .top__heading {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    width: 343px;
+    height: 77.436px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+  }
+  .top__slogan {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    width: 343px;
+  }
+  .game {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .game__box {
+    width: 343px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+  }
+}
+@media (max-width: 720px) {
+  .header {
+    background: url(../img/mobileFon.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}/*# sourceMappingURL=style.css.map */
